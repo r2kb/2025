@@ -1,0 +1,211 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #14171A;
+}
+
+.home{
+    max-height: 60vh;
+    margin: 15vh 4vw;
+    padding: 5em 10vw;
+    
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+
+    background-color: #1DA1F2;
+    border-radius: 5px;
+}
+.image-container img{
+    width: 100%;
+    border-radius: 50%;
+    border: solid 2px rgb(255, 255, 255);
+    box-shadow: 0 0 20px 5px rgb(18, 53, 85);
+}
+.home-container h1{
+    font-family: "Barlow", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5vh;
+ }
+
+ .home-container p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+ }
+
+ .about{
+    margin: 15vh 4vw;
+    padding: 5em 10vw;
+    
+    display: block;
+
+    color: white;
+
+    background-color: #1DA1F2;
+    border-radius: 5px;
+}
+
+.about-container h1{
+    font-family: "barlow", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.about-container p{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10vh;
+}
+
+.skills-container h1{
+    font-family: "barlow", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.skills-container div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.skills-container li{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    margin: 0 3em;
+    list-style: none;
+}
+
+.interests-container h1{
+    font-family: "barlow", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.interests-container div{
+    display: flex;
+    justify-content: center;
+}
+
+.interests-container li{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    margin: 0 3em;
+    list-style: none;
+}
+
+
+.portfolio{
+    margin: 15vh 4vw;
+    padding: 5em 10vw;
+
+    color: white;
+
+    background-color: #1DA1F2;
+    border-radius: 5px;
+}
+
+.portfolio-container h1{
+    font-family: "barlow", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.portfolio-container p{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.portfolio-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+
+}
+
+.portfolio-item-image img{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    max-height: 40vh;
+    margin-right: 20px;
+    border: 2px solid black
+}
+.portfolio-item-description{
+    padding:1.5em;
+    
+}
+.portfolio-item-description h1{
+ 
+    font-family: "barlow", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 5vh;
+
+}
+
+.portfolio-item-description p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: start;
+    margin-bottom: 5vh;
+}
+#fitease{
+
+    width: 60%;
+    align-items: center;
+    margin-left: 10vw;
+    border: 2px solid white
+}
+
+#fitease-description{
+    width: 30vw;
+    margin-left: 100px;
+}
+
+.contact{
+    padding: 5vh 10vw;
+    background-color: #1DA1F2;
+   
+}
+
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    padding: 3vh 5vw;
+    color: white;
+    justify-content: start;
+   
+}
+.contact-container-header{
+    font-family: "barlow", sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.contact-icons{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+.social-icons{
+    width: 100%;
+    margin-left: 10vw;
+  
+}
+.social-icons a{ 
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.social-icons a:hover{
+    color: #0a598a;
+}
