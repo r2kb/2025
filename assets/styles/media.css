@@ -24,6 +24,12 @@ p {
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .nav-bar {
+        display: none;
+    }
+    .portfolio{
+        display: none;
+    }
     .container {
         padding: 10px;
     }
@@ -37,6 +43,10 @@ p {
 
 /* Medium devices (tablets, 600px to 768px) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+   
     .container {
         padding: 15px;
     }
@@ -50,6 +60,8 @@ p {
 
 /* Large devices (desktops, 768px and up) */
 @media only screen and (min-width: 768px) {
+  
+   
     .container {
         padding: 20px;
     }

@@ -131,8 +131,8 @@ body{
 .portfolio-item-image img{
     display: flex;
     justify-content: center;
-    width: 40vw;
-    max-height: 40vh;
+    width: 100%;
+    max-height: auto;
     margin-right: 20px;
     border: 2px solid black
 }
